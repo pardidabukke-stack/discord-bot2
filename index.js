@@ -18,6 +18,7 @@ client.on('messageCreate', (message) => {
   if (message.webhookId) {
     setTimeout(() => {
       message.delete().catch(console.error);
+      message.channel.send('yahaha kehapus dan maaf menganggu kenyaman nya, mwah.').catch(console.error);
     }, 3000);
   }
 });

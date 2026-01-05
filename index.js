@@ -22,4 +22,5 @@ client.on('messageCreate', (message) => {
   }
 });
 
-client.login(process.env.DISCORD_TOKEN);
+
+client.login(process.env.DISCORD_TOKEN=MTQ1Nzc1MzU2MzUzMDAwMjU1Mg.GGFigK.WkHB8DOM9T7EUZaIZrUk9eb0vy3zw1Bs3XudBM);
